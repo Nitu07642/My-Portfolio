@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- start header -->
+  <header class="header">
+    <!-- header left side -->
+    <div class="logo_name">
+      <div id="logo"></div>
+      <h1 id="name">Nitu Kumari</h1>
+    </div>
+    <!--  header right side-->
+    <div class="menu-toggle" id="menu-toggle" data-aos="fade-up">&#9776;</div>
+    <ul class="menu" id="menu" data-aos="fade-up">
+      <li><a class="li" href="#home">Home</a></li>
+      <li><a class="li" href="#about">About</a></li>
+      <li><a class="li" href="#skills">Skills</a></li>
+      <li><a class="li" href="#projects">Projects</a></li>
+      <li><a class="li" href="#certifications">Certifications</a></li>
+      <li><a class="li" href="#education">Education</a></li>
+      <li><a class="li" href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  <!-- end header -->
+
+  <main class="main">
+
+    <!-- start home section -->
+    <section class="Home" id="home">
+      <div class="home-text" data-aos="fade-right">
+        <h2>Hello, I'm</h2>
+        <h2><span class="highlight">Nitu Kumari</span></h2>
+        <div class="typed-text" id="typed"></div>
+        <a href="https://drive.google.com/file/d/1td8LpIXrIG7KNl9IdlN98ZixffNPPABt/view?usp=drivesdk" class="btn">Download Resume</a>
+        <a href="https://github.com/Nitu07642" class="btn">Visit GitHub</a>
+
+        <div class="social-icons-up" data-aos="fade-up">
+          <a href="https://github.com/Nitu07642" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nitu-kumari-web-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://whatsapp.com/channel/0029Vb6AhapHrDZaauZxKn1f" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+      <div class="home-image" data-aos="fade-left">
+        <img src="chaneel-image.jpeg" alt="My Photo" />
+      </div>
+    </section>
+  <!-- end home section -->
+
+
+
+    <!-- start about section -->
+    <section class="About" id="about" data-aos="fade-up">
+      <h2 class="section-title"> <span>About Me</span></h2>
+
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <img src="My-pic.jpeg" alt="My Photo" />
+        </div>
+
+        <div class="about-me">
+          <h2 data-aos="fade-right">Hello, I'm</h2>
+          <h2><span class="highlight">Nitu Kumari</span></h2>
+          <p data-aos="fade-left">
+            I am a B.Tech student in Electronics and Communication Engineering
+            with a solid foundation in Data Structures and Python programming.
+            Proficient in C, C++, Java, and Python, and skilled in web
+            technologies like HTML, CSS, JavaScript, and SQL. I’ve completed
+            internships in C/C++ and Python, and earned NPTEL certifications
+            in DSA and C programming. Currently preparing for technical
+            interviews and looking for opportunities where I can contribute
+            and grow. I enjoy building responsive web-based projects and
+            working in collaborative teams.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   <!-- end about section -->
+
+    <!-- Start Skills section -->
+
+    <section class="Skills" id="skills" data-aos="fade-up">
+      <h2 class="section-title"><span>Skills</span></h2>
+
+      <div class="skills-grid" data-aos="fade-up">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>⭐⭐⭐⭐⭐</p>
+          <img src="html.png" alt="html image" class="skill-image" />
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>⭐⭐⭐⭐</p>
+          <img src="CSS.png" alt="css image" class="skill-image" />
+
+          <div class="circle-skill" data-percent="75">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Java Script</h3>
+          <p>⭐⭐⭐⭐</p>
+          <img src="js.webp" alt="JavaScript image" class="skill-image" />
+
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>React</h3>
+          <p>⭐⭐⭐</p>
+          <img src="React.png" alt="React image" class="skill-image" />
+
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-grid" data-aos="fade-up">
+        <div class="card">
+          <h3>C++(OOPs)</h3>
+          <p>⭐⭐⭐⭐</p>
+          <img src="C++.png" alt="c++ image" class="skill-image" />
+
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Python</h3>
+          <p>⭐⭐⭐⭐</p>
+          <img src="python.jpg" alt="python image" class="skill-image" />
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>DSA</h3>
+          <p>⭐⭐⭐</p>
+          <img src="DSA.png" alt="DSA image" class="skill-image" />
+
+          <div class="circle-skill" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code</p>
+          <div class="tool">
+            <img src="git-hub.svg" alt="tools image" />
+            <img src="git.png" alt="tools image" />
+            <img src="vs-code.jpg" alt="tools image" />
+          </div>
+
+          <div class="circle-skill" id="git-circle" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="130" cy="130" r="115" />
+              <circle class="circle-progress" cx="130" cy="130" r="115" />
+            </svg>
+            <div class="percentage">0%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End  Skills section -->
+
+
+
+
+
+    <!-- Start Projects section -->
+    <section class="Projects" id="projects" data-aos="fade-up">
+      <h2 class="section-title"><span>Projects</span></h2>
+
+      <div class="project-container" id="project-left" data-aos="fade-left">
+        <div class="project-card">
+          <img class="project-imge" src="portfolio (2).png" alt="Portfolio-project" />
+          <h3>Portfolio project</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            optio inventore ducimus tempora itaque. Sapiente deleniti ducimus
+            dolores, dicta, reprehenderit deserunt eius modi delectus sed illo
+            quia, qui nostrum laboriosam. Voluptatem iure asperiores excepturi
+            perspiciatis dicta ipsum cumque, ad beatae dignissimos architecto
+            at molestiae autem quis culpa quia. Sunt expedita ullam recusandae
+            impedit, quae maxime ab sit nostrum perspiciatis soluta?
+          </p>
+          <div class="button">
+            <a href="" class="project-btn">Source Code</a>
+            <a href=" " class="project-btn">Live View</a>
+          </div>
+        </div>
+        <div class="line-horizontal"></div>
+        <div class="line-circle"></div>
+        <!-- line -->
+        <div class="line"></div>
+      </div>
+
+      <div class="project-container" id="project-right" data-aos="fade-right">
+        <div class="line"></div>
+        <div class="line-circle"></div>
+        <div class="line-horizontal"></div>
+
+        <div class="project-card">
+          <img class="project-imge" src="Library.png" alt="Library-project" />
+          <h3>Portfolio project</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            optio inventore ducimus tempora itaque. Sapiente deleniti ducimus
+            dolores, dicta, reprehenderit deserunt eius modi delectus sed illo
+            quia, qui nostrum laboriosam. Voluptatem iure asperiores excepturi
+            perspiciatis dicta ipsum cumque, ad beatae dignissimos architecto
+            at molestiae autem quis culpa quia. Sunt expedita ullam recusandae
+            impedit, quae maxime ab sit nostrum perspiciatis soluta?
+          </p>
+          <div class="button">
+            <a href="https://github.com/Nitu07642/Online-Book-Shop" class="project-btn">Source Code</a>
+            <a href="https://book-library-system.netlify.app/" class="project-btn">Live View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container" id="project-left" data-aos="fade-left">
+        <div class="project-card">
+          <img class="project-imge" src="ToDoList.png" alt="RealWorld-project" />
+          <h3>Portfolio project</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            optio inventore ducimus tempora itaque. Sapiente deleniti ducimus
+            dolores, dicta, reprehenderit deserunt eius modi delectus sed illo
+            quia, qui nostrum laboriosam. Voluptatem iure asperiores excepturi
+            perspiciatis dicta ipsum cumque, ad beatae dignissimos architecto
+            at molestiae autem quis culpa quia. Sunt expedita ullam recusandae
+            impedit, quae maxime ab sit nostrum perspiciatis soluta?
+          </p>
+          <div class="button">
+            <a href="https://github.com/Nitu07642/ToDoList-App" class="project-btn">Source Code</a>
+            <a href="https://velvety-naiad-fd17e9.netlify.app/ " class="project-btn">Live View</a>
+          </div>
+        </div>
+        <div class="line-horizontal"></div>
+        <div class="line-circle"></div>
+        <!-- line -->
+        <div class="line"></div>
+      </div>
+    </section>
+    <!-- End Projects section -->
+
+
+
+
+    <!-- Start Certifications section -->
+    <section class="Certifications" id="certifications" data-aos="fade-up">
+      <h2 class="section-title"><span>Certifications</span></h2>
+      <div class="certification-horizontal-line"></div>
+      <div class="certificate-card" data-aos="fade-up">
+
+
+        <div class="certificate1" data-aos="fade-up">
+          <div class="line-circle"></div>
+          <div class="certificate-vertical-line-small"></div>
+          <div class="certificate-card1">
+            <img src="javascript-certificate.png" alt="certificate-image" class="certificate-image">
+            <h2>JavaScript</h2>
+            <p>Completed JavaScript Essential Training. Gained strong understanding of JS fundamentals like functions, events, and DOM — forming a solid base for building responsive and interactive frontend web applications.
+            </p>
+            <a href="https://www.linkedin.com/learning/certificates/28e919ccf500d3ffdd188f55bec2c0887b37f478d514bc94671a8ce738b6a0bd?trk=share_certificate" class="certificate-btn">Veiw certificate</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="certificate2" data-aos="fade-up">
+          <div class="line-circle"></div>
+          <div class="certificate-vertical-line-long"></div>
+          <div class="certificate-card1">
+            <img src="NCAT-certificate.png" alt="certificate-image" class="certificate-image">
+            <h2>NCAT Apptitude </h2>
+            <p>Secured All India Rank 1120 in NCAT 2025 among thousands. Demonstrated aptitude, logical reasoning, and analytical thinking — key strengths I apply in frontend development problem-solving.
+            </p>
+            <a href="https://www.naukri.com/campus/certificates/naukri_campus_ai_ncat_participation_may_2025/v0/683a2440892c1f3133ab3a51?utm_source=certificate&utm_medium=copy&utm_campaign=683a2440892c1f3133ab3a51" class="certificate-btn">Veiw certificate</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="certificate1" data-aos="fade-up">
+          <div class="line-circle"></div>
+          <div class="certificate-vertical-line-small"></div>
+          <div class="certificate-card1">
+            <img src="C programming-certificate.png" alt="certificate-image" class="certificate-image">
+            <h2>C programming</h2>
+            <p>Built strong programming fundamentals with C language in an IIT Kanpur-certified NPTEL course. Helped in understanding logic building and memory handling essential for writing efficient frontend code.
+            </p>
+            <a href="https://drive.google.com/file/d/1fF069oxye_2zdCgc69Mxo2ddp9dRUhws/view" class="certificate-btn">Veiw certificate</a>
+          </div>
+        </div>
+
+
+
+        <div class="certificate2" data-aos="fade-up">
+          <div class="line-circle"></div>
+          <div class="certificate-vertical-line-long"></div>
+          <div class="certificate-card1">
+            <img src="DSA-certificate.png" alt="certificate-image" class="certificate-image">
+            <h2>DSA with Python</h2>
+            <p>Completed NPTEL-certified DSA course using Python from IIT Madras. Strengthened problem-solving and logical thinking — boosting my frontend coding efficiency and debugging skills.
+            </p>
+            <a href="https://drive.google.com/file/d/1fHon773RKONEFUf8MCJUhORZ5KDs3lor/view?usp=drivesdk" class="certificate-btn">Veiw certificate</a>
+          </div>
+        </div>
+
+
+        <div class="certificate1" data-aos="fade-up">
+          <div class="line-circle"></div>
+          <div class="certificate-vertical-line-small"></div>
+          <div class="certificate-card1">
+            <img src="coding-compitition-certificate.png" alt="certificate-image" class="certificate-image">
+            <h2>CodeQuezt Coding Challenge</h2>
+            <p>Secured All India Rank 547 in CodeQuezt Coding Challenge by Naukri Campus. Strengthened problem-solving skills through real-time coding, boosting my ability to write clean and optimized frontend code.
+            </p>
+            <a href="#" class="certificate-btn">Veiw certificate</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- End Certifications section -->
+
+
+
+    <!-- Start Education section -->
+    <section class="Education" id="education" data-aos="fade-right">
+      <h2 class="section-title"><span>Education</span></h2>
+
+      <div class="timeline" data-aos="fade-up">
+        <div class="entry">
+          <div class="year">2025</div>
+          <div class="dot"></div>
+          <div class="content">
+            <p data-aos="fade-up">Graduated from Government Engineering College Sheohar with a Bachelor of Electronics
+              and Communication Engineering degree in 2025, achieving a GPA of 8.2 .</p>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="year">2022</div>
+          <div class="dot"></div>
+          <div class="content">
+            <p>Completed Diploma education at Government Polytechnic College Gaya in 2022, specializing in the Computer
+              Science Engineering Branch and achieving a grade point average of 8.44 . </p>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="year">2019</div>
+          <div class="dot"></div>
+          <div class="content">
+            <p>Completed 10th class from Ramruchi Balika High School in 2019, earning a percentage 78.66% in my
+              secondary school examinations. Successfully completed the requirements for 10th grade, demonstrating
+              academic proficiency.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Education section -->
+
+
+
+
+
+
+    <!-- Start Contact section -->
+
+    <section class="Contact" id="contact" data-aos="fade-up">
+      <h2 class="section-title"><span>Contact</span></h2>
+      <div class="form-container">
+        <h2>Send Message</h2>
+        <form id="contact-form">
+          <input type="email" name="user_email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Type your message..." required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- End Contact section -->
+  </main>
+
+
+
+  <!-- Start Footer section -->
+  <footer>
+    <div class="footer">
+
+      <div class="footer-content">
+        <p id="email-footer" data-aos="fade-up">
+          Email me at:
+          <a href="mailto:nitu07642@gmail.com" style="color: #38bdf8">nitu07642@gmail.com</a>
+        </p>
+        <div class="social-icons" data-aos="fade-up">
+          <a href="https://github.com/Nitu07642" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nitu-kumari-web-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://whatsapp.com/channel/0029Vb6AhapHrDZaauZxKn1f" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/niharikaprajapati85?igsh=MzhscTNwNnhzbmx4" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+        <p id="copyright">&copy; 2025 Copyright all rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer section -->
+
+  <!-- Home animation  -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- form working -->
+  <!-- <scrip src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script> -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script type="module" src="script.js" defer></script>
+</body>
+
+</html>
